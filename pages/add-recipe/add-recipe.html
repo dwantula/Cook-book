@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="add-recipe.css" type="text/css" >
+  <link rel="stylesheet" href="../../styles/style.css" type="text/css" >
+  <title>Addrecipe</title>
+</head>
+<body>
+  <div class="card">
+    <input id="recipe-name" class="recipe-name" placeholder="Name of the recpie"/>
+    <h3>Ingredients</h3>
+    <ul id="ingredients-list"></ul>
+    <div class="add-ingredients-row">
+      <button
+        id="buttonAddIngredient"
+        class="button button-positive"
+        type="button">Add Ingredient
+      </button>
+      <input id="ingredient-input" class="ingredient-input" type="text" />
+    </div>
+    <h3>Notes</h3>
+    <textarea id="recipe-notes" class="recipe-notes" placeholder="Optional"></textarea>
+    <div class="buttons-row">
+      <button id="save-recipe-button" class="button button-positive">Save Recipe</button>
+      <button id="clear-button" class="button button-negative">Clear</button>
+    </div>
+  </div>
+  <script src="../../utils/idGenerator.js" type="text/javascript"></script>
+  <script src="../../utils/navigation.js" type="text/javascript"></script>
+  <script src="../../services/localStorage.js" type="text/javascript"></script>
+  <script src="add-recipe.js" type="text/javascript"></script>
+</body>
+</html>

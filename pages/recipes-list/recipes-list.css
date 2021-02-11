@@ -1,0 +1,42 @@
+table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: center;
+  text-align: center;
+  width: 100%;
+  color: gray;
+  height: 60vh;
+}
+
+tbody {
+  align-self: center;
+}
+
+td {
+  text-align: center;
+  border: none;
+}
+
+
+.decoration-name {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 700px;
+  font-size: 40px;
+
+}
+
+.button-delete-recipe {
+  font-size: 20px;
+  outline: 0;
+}
+
+.button-details {
+  margin-left: 5px;
+  width:100px;
+  height: 30px;
+  text-align: center;
+  margin-left: 30px;
+}

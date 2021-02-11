@@ -1,0 +1,17 @@
+.card-size {
+  min-height: 250px;
+}
+
+.exit-button {
+  outline: 0;
+  border: none;
+}
+
+
+.decoration-name{
+  text-align: center;
+  font-size: xx-large;
+  color: gray;
+  
+}
+

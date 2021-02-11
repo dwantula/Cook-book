@@ -1,0 +1,46 @@
+.card {
+  background-color: #ffffff;
+  border: 1px solid black;
+  display: flex;
+  border-radius: 6px;
+  flex-direction: column;
+  margin: auto auto;
+}
+
+.recipe-name {
+  border: none;
+  margin-top: 20px;
+  font-size: 30px;
+  margin-right: 30px;
+  outline: none;
+  display: flex;
+}
+
+.add-ingredients-row {
+  display: flex;
+}
+
+.buttons-row {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.ingredient-input {
+  width: 30%;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+
+.recipe-notes {
+  min-height: 100px;
+  border-color: lightgray;
+  border-radius: 6px;
+  outline: none;
+  resize: none;
+}
+
+.point-list {
+  display: inline-block;
+}
