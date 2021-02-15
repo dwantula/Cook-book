@@ -6,11 +6,13 @@ table {
   text-align: center;
   width: 100%;
   color: gray;
-  height: 60vh;
+  min-height: 50vh;
 }
+
 
 tbody {
   align-self: center;
+  font-size: 25px;
 }
 
 td {
@@ -18,14 +20,12 @@ td {
   border: none;
 }
 
-
 .decoration-name {
   display: flex;
   justify-content: center;
+  margin: 0 350px;
   text-align: center;
-  width: 700px;
   font-size: 40px;
-
 }
 
 .button-delete-recipe {
