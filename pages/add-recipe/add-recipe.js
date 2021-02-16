@@ -2,12 +2,17 @@ var AddRecipeModule = (function() {
   var list = document.getElementById('ingredients-list');
   var addIngredientButton = document.getElementById('buttonAddIngredient');
   var recipeNameInput = document.getElementById('recipe-name');
+  var exitButton = document.querySelector('#exit-button');
+  
+  exitButton.addEventListener('click', function() {
+    NavigationModule.replaceLocation('../recipes-list/recipes-list.html');
+  });
 
   function addIngredient() {
     var point = document.createElement('li');
     var removePointButton = document.createElement('button');
     var text = document.createElement('p');
-    removePointButton.addEventListener('click',  function() {
+    removePointButton.addEventListener('click', function() {
     list.removeChild(point);
     });
     removePointButton.innerHTML = 'X';
@@ -66,5 +71,4 @@ var AddRecipeModule = (function() {
   }
 
   saveRecipeButton.addEventListener('click', saveRecipe);
-
 })();
